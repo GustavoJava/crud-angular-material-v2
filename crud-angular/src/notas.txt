@@ -183,7 +183,7 @@ GIT
 gustavo.java2000@gmail.com
 Gitstrike1
 token:
-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
+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
 
 REMOVER .metadata/
 
