@@ -1,0 +1,201 @@
+
+
+**************** LoianeGroner Angular Spring **************
+
+1º AULA
+https://www.youtube.com/watch?v=qJnjz8FIs6Q&list=PLj1bulwZbtrDvG2uYK8j-WIzniPabTgu4&index=54&t=13s&ab_channel=LoianeGroner
+
+2º AULA
+https://www.youtube.com/watch?v=PqVuSKCk_OU&ab_channel=LoianeGroner
+
+3º AULA
+https://www.youtube.com/watch?v=N4uIR7jgFGA&ab_channel=LoianeGroner
+
+4º AULA - Criando o Módulo de Cursos e Usando Roteamento com Lazy
+https://www.youtube.com/watch?v=5QHAtRyiPQ4&ab_channel=LoianeGroner
+
+5º AULA - Customizando o Tema do Angular Material
+https://www.youtube.com/watch?v=VnJdZ_od0wY&ab_channel=LoianeGroner
+
+6º AULA - Criando Material Table para Listar Cursos
+https://www.youtube.com/watch?v=LvYXiOh3vZ4&ab_channel=LoianeGroner
+
+7º AULA - CSS do Material Table e Criando um Módulo App Material
+https://www.youtube.com/watch?v=jjv5YZhPjfc&ab_channel=LoianeGroner
+
+8º AULA - Criando um Service no Angular
+https://www.youtube.com/watch?v=76fUSr1nSDM&ab_channel=LoianeGroner
+
+9º AULA - Chamada HTTP Get no Angular e RXJS
+https://www.youtube.com/watch?v=LUUn1BWIUA8&ab_channel=LoianeGroner
+
+10º AULA - Lista de Cursos: Spinner (Carregando)
+https://www.youtube.com/watch?v=vOz_o7oYv9I&ab_channel=LoianeGroner
+
+11º AULA - Lista de Cursos: Tratamento de Erros e MatDialog
+https://www.youtube.com/watch?v=gi0ZJ8-r6IM&ab_channel=LoianeGroner
+
+12º AULA - Lista de Cursos: Pipe para mostrar ícone
+https://www.youtube.com/watch?v=uNFIh3jvp34&ab_channel=LoianeGroner
+
+13º AULA - Ambiente Java + Maven para Spring - variável de ambiente & spring vscode.
+https://www.youtube.com/watch?v=Ge7Em4byou8&ab_channel=LoianeGroner
+
+14º AULA - spring initializer & dependências
+https://www.youtube.com/watch?v=Ge7Em4byou8&ab_channel=LoianeGroner
+
+15º AULA - Listar Cursos (API HTTP GET) - CommandLineRunner
+https://www.youtube.com/watch?v=w2xOL_yW8Tc&ab_channel=LoianeGroner
+
+16º AULA - Banco de Dados H2 e Conectando o Angular na API Spring
+https://www.youtube.com/watch?v=ATjHgBh8dWg&ab_channel=LoianeGroner
+
+17º AULA - Update da Versão Angular (ng update) e Spring - ng update
+atualizar
+1º angular/core
+2° angular/cli
+3º angular/cdk
+https://www.youtube.com/watch?v=OBU_K7jq0nM&ab_channel=LoianeGroner
+
+18º AULA - Componente de Formulário e Roteamento para criar cursos - Router & ActivateRouter
+https://www.youtube.com/watch?v=9_02JxDn_AM&ab_channel=LoianeGroner
+
+19º AULA - Formulário para Criar Cursos - Forms
+https://www.youtube.com/watch?v=R3yy3RX4FyM&ab_channel=LoianeGroner
+
+20º AULA - Formulário: Salvando os dados com HTTP POST + tratamento + SnackBar
+https://www.youtube.com/watch?v=xLhNxqEQnLo&ab_channel=LoianeGroner
+
+21º AULA - Formulário: API Spring: Criar Curso (HTTP POST)
+https://www.youtube.com/watch?v=R9thmwiG2ns&t=570s&ab_channel=LoianeGroner
+
+22º AULA - Update para o Angular v14
+https://www.youtube.com/watch?v=oEawp1Ey3TI&ab_channel=LoianeGroner
+
+23º AULA
+https://www.youtube.com/watch?v=9q4tNVeUAao&ab_channel=LoianeGroner
+
+22º AULA
+https://www.youtube.com/watch?v=oEawp1Ey3TI&ab_channel=LoianeGroner
+
+20º AULA
+https://www.youtube.com/watch?v=xLhNxqEQnLo&t=27s&ab_channel=LoianeGroner
+
+19º AULA - form & CSS
+https://www.youtube.com/watch?v=R3yy3RX4FyM&ab_channel=LoianeGroner
+
+20º AULA - snackbar & POST
+https://www.youtube.com/watch?v=xLhNxqEQnLo&t=75s&ab_channel=LoianeGroner
+
+21º AULA - response entity & POST
+https://www.youtube.com/watch?v=R9thmwiG2ns&t=563s&ab_channel=LoianeGroner
+
+22º AULA - response entity & POST
+https://www.youtube.com/watch?v=oEawp1Ey3TI&ab_channel=LoianeGroner
+
+23º AULA - Typed Forms
+https://www.youtube.com/watch?v=9q4tNVeUAao&t=6s&ab_channel=LoianeGroner
+
+24º AULA - Refatoração Angular Material Table
+https://www.youtube.com/watch?v=tOIp89BBHgw&ab_channel=LoianeGroner
+
+25º AULA - Refatoração Angular Material Table
+https://www.youtube.com/watch?v=3rVmS6psL_U&t=12s&ab_channel=LoianeGroner
+
+26º AULA - Buscar por ID
+https://www.youtube.com/watch?v=v4fZYldQeBo&t=4s&ab_channel=LoianeGroner
+
+27º AULA - Criar resolver
+https://www.youtube.com/watch?v=hx35MhRjrr4&t=18s&ab_channel=LoianeGroner
+
+28º AULA - preencher formulário na edição
+https://www.youtube.com/watch?v=uZwqA1DZXMU&t=8s&ab_channel=LoianeGroner
+
+29º AULA - atualizar dados
+https://www.youtube.com/watch?v=8q36rNS5yVo&t=3s&ab_channel=LoianeGroner
+
+30º AULA - Atualizar Curso: API
+https://www.youtube.com/watch?v=1OGfOwK8B7U&list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVlTcY&index=30&ab_channel=LoianeGroner
+
+31º AULA - remover Curso API
+https://www.youtube.com/watch?v=t_fBHydsEHw&list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVlTcY&index=31&ab_channel=LoianeGroner
+
+32º AULA - remover Curso
+https://www.youtube.com/watch?v=t_fBHydsEHw&list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVlTcY&index=31&ab_channel=LoianeGroner
+
+33º AULA - Dialog de Confirmação - DELETE
+https://www.youtube.com/watch?v=jMuAviiUGPc&list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVlTcY&index=33&ab_channel=LoianeGroner
+
+34º AULA - Validações de Formulário no Front-end
+https://www.youtube.com/watch?v=As70gDHoagE&list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVlTcY&index=34&ab_channel=LoianeGroner
+
+35º AULA - Validações da API com Java Bean Validation - @NotNull, @NotBlank, @Valid, @Positive
+https://www.youtube.com/watch?v=Tm6ycFeavGA&list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVlTcY&index=35&ab_channel=LoianeGroner
+
+36º AULA - Remoção Lógica (Soft Delete)
+@SQLDelete --> executa um soft delete não excluindo um registro fisicamente.
+@Where --> traz todos os registros baseando no 'clause sql'.
+https://www.youtube.com/watch?v=-EYXYci9kVI&list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVlTcY&index=36&ab_channel=LoianeGroner
+
+37º AULA -  Atualizando para Spring Boot 3
+https://www.youtube.com/watch?v=j0UW1Pppfts&list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVlTcY&index=38&ab_channel=LoianeGroner
+
+40º AULA - Tratando Exceções com Controller Advice
+ControllerAdvice para exceptions no controller, ver arquivo ApplicationControllerAdvice.java
+https://www.youtube.com/watch?v=L6wR2DhORrg&t=1s&ab_channel=LoianeGroner
+
+41º AULA - Padrão DTO (Data Transfer Object)
+https://www.youtube.com/watch?v=xeOBISdqTQc&ab_channel=LoianeGroner
+
+42º AULA - Padrão Mapper
+https://www.youtube.com/watch?v=2GTgDLkDWPQ&ab_channel=LoianeGroner
+
+43º AULA - Persistência de Enums no JPA
+https://www.youtube.com/watch?v=1d1JbwJ_Py4&ab_channel=LoianeGroner
+
+44º AULA - Persistência de Enums no JPA
+https://www.youtube.com/watch?v=GJ0krClAmPs&ab_channel=LoianeGroner
+
+45º AULA - Curso-Aulas: OneToMany
+https://www.youtube.com/watch?v=Nb4uxLxdvxo&ab_channel=LoianeGroner
+
+48º: Curso-Aulas: Interface Aulas
+https://www.youtube.com/watch?v=HKFrz5P8D0g&ab_channel=LoianeGroner
+
+comandos
+ng add @angular/material --> adicionar material
+ng g m courses --routing --> modulo com roteamento
+ng g c  courses/courses --> componente courses dentro do modulo courses
+ng g c courses/course-form --> adicionar componente course-form
+ng g m shared/app-material --> imports do angular-material em um unico modulo
+ng g pipe shared/pipes/category --> pipes transforma valores
+ng g resolver courses/guards/course --> cria um resolver
+ng update @angular/cli@13.3.9 @angular/core@13.3.9
+ng update @angular/core@15 @angular/cli@15
+
+LAZY LOADING - aula link
+https://www.youtube.com/watch?v=faYv4aIGoAE&ab_channel=MichelliBrito
+
+ANGULAR UPDATES
+https://update.angular.io/
+
+GIT
+gustavo.java2000@gmail.com
+Gitstrike1
+token:
+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
+
+REMOVER .metadata/
+
+git rm -r --cached "crud-angular-spring/crud-angular-backend/crud-spring/.metadata"
+git commit -m 'removido pasta ".metadata"'
+
+material-icons
+https://fonts.google.com/icons
+
+update-alternatives --list java
+
+update-alternatives --config java
+
+Angular Course 9 # 01 Introduction
+https://www.youtube.com/watch?v=5vPaoV9SV5U&list=PL8iIphQOyG-DSLV6qWs8wh37o0R_F9Q_Q&index=2&ab_channel=MichelliBrito
