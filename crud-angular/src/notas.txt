@@ -90,7 +90,7 @@ https://www.youtube.com/watch?v=xLhNxqEQnLo&t=75s&ab_channel=LoianeGroner
 21º AULA - response entity & POST
 https://www.youtube.com/watch?v=R9thmwiG2ns&t=563s&ab_channel=LoianeGroner
 
-22º AULA - response entity & POST
+22º AULA - Update para o Angular v14
 https://www.youtube.com/watch?v=oEawp1Ey3TI&ab_channel=LoianeGroner
 
 23º AULA - Typed Forms
