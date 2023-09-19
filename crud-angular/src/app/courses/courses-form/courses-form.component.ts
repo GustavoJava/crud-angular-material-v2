@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { UntypedFormBuilder, UntypedFormGroup } from '@angular/forms';
 import { Location } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder, NonNullableFormBuilder } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { ActivatedRoute, Router } from '@angular/router';
 
@@ -13,18 +13,17 @@ import { CoursesService } from '../services/courses.service';
 })
 export class CoursesFormComponent implements OnInit {
 
-  form: UntypedFormGroup;
+  form = this.formBuilder.group({
+    name: [''],
+    category: ['']
+  });
 
-  constructor(private formBuilder: UntypedFormBuilder,
+  constructor(private formBuilder: NonNullableFormBuilder,
               private router: Router,
               private route: ActivatedRoute,
               private service: CoursesService,
               private location: Location,
               private snackBar: MatSnackBar) {
-    this.form = this.formBuilder.group({
-      name: [null],
-      category: [null]
-    });
   }
 
   ngOnInit(): void {

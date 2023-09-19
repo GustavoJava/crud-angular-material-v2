@@ -99,7 +99,7 @@ https://www.youtube.com/watch?v=9q4tNVeUAao&t=6s&ab_channel=LoianeGroner
 24º AULA - Refatoração Angular Material Table
 https://www.youtube.com/watch?v=tOIp89BBHgw&ab_channel=LoianeGroner
 
-25º AULA - Refatoração Angular Material Table
+25º AULA - Componentes Inteligentes x Componentes de Apresentação
 https://www.youtube.com/watch?v=3rVmS6psL_U&t=12s&ab_channel=LoianeGroner
 
 26º AULA - Buscar por ID
