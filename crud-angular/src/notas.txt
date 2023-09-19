@@ -105,7 +105,7 @@ https://www.youtube.com/watch?v=3rVmS6psL_U&t=12s&ab_channel=LoianeGroner
 26º AULA - Buscar por ID
 https://www.youtube.com/watch?v=v4fZYldQeBo&t=4s&ab_channel=LoianeGroner
 
-27º AULA - Criar resolver
+27º AULA - Atualizar Curso - Angular Resolver: Buscar por ID
 https://www.youtube.com/watch?v=hx35MhRjrr4&t=18s&ab_channel=LoianeGroner
 
 28º AULA - preencher formulário na edição
