@@ -105,19 +105,19 @@ https://www.youtube.com/watch?v=3rVmS6psL_U&t=12s&ab_channel=LoianeGroner
 26º AULA - Buscar por ID
 https://www.youtube.com/watch?v=v4fZYldQeBo&t=4s&ab_channel=LoianeGroner
 
-27º AULA - Criar resolver
+27º AULA - Atualizar Curso - Angular Resolver: Buscar por ID
 https://www.youtube.com/watch?v=hx35MhRjrr4&t=18s&ab_channel=LoianeGroner
 
-28º AULA - preencher formulário na edição
+28º AULA - Atualizar Curso: Populando o Formulário - preencher formulário na edição
 https://www.youtube.com/watch?v=uZwqA1DZXMU&t=8s&ab_channel=LoianeGroner
 
 29º AULA - atualizar dados
 https://www.youtube.com/watch?v=8q36rNS5yVo&t=3s&ab_channel=LoianeGroner
 
-30º AULA - Atualizar Curso: API
+30º AULA - Atualizar Curso: API Spring HTTP PUT
 https://www.youtube.com/watch?v=1OGfOwK8B7U&list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVlTcY&index=30&ab_channel=LoianeGroner
 
-31º AULA - remover Curso API
+31º AULA - Remover Curso: API Spring HTTP DELETE - remover Curso API
 https://www.youtube.com/watch?v=t_fBHydsEHw&list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVlTcY&index=31&ab_channel=LoianeGroner
 
 32º AULA - remover Curso
