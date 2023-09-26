@@ -137,8 +137,12 @@ https://www.youtube.com/watch?v=Tm6ycFeavGA&list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVl
 @Where --> traz todos os registros baseando no 'clause sql'.
 https://www.youtube.com/watch?v=-EYXYci9kVI&list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVlTcY&index=36&ab_channel=LoianeGroner
 
-37º AULA -  Atualizando para Spring Boot 3
+37º AULA - Atualizando para Spring Boot 3
+mudar imports de javax. pra jakarta.
 https://www.youtube.com/watch?v=j0UW1Pppfts&list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVlTcY&index=38&ab_channel=LoianeGroner
+
+38º AULA - Upgrade Angular v15 com Angular Material
+https://www.youtube.com/watch?v=LDqfe2HK3kM&ab_channel=LoianeGroner
 
 40º AULA - Tratando Exceções com Controller Advice
 ControllerAdvice para exceptions no controller, ver arquivo ApplicationControllerAdvice.java
