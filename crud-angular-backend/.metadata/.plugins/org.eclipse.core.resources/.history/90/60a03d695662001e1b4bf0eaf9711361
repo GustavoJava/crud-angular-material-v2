@@ -1,5 +1,0 @@
-package com.loiane.dto;
-
-public record CourseDTO( Long id, String name, String category) {
-
-}
