@@ -26,7 +26,7 @@ public class DemoApplication {
 					new Course(1L, "Java 17", "Back-end","Ativo"),
 					new Course(2L, "AngularJS", "Front-end","Ativo"),
 					new Course(3L, "Material Design", "Front-end","Ativo"),
-					new Course(4L, "C++ Turbo", "Back-end","Inativo")
+					new Course(4L, "C++ Turbo", "Back-end","Ativo")
 			);
 			
 			repository.saveAll(lista);

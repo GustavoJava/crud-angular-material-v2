@@ -1,0 +1,10 @@
+package com.loiane.exception;
+
+public class RecordNotFoundException extends RuntimeException {
+
+	public RecordNotFoundException(Long id) {
+		super("Curson não encontrado com Id: " + id);
+	}
+	
+
+}
