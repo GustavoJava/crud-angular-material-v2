@@ -1,9 +1,0 @@
-package com.loiane.enums.converters;
-
-import com.loiane.enums.Category;
-
-import jakarta.persistence.AttributeConverter;
-
-public class CategoryConverter implements AttributeConverter<Category, String> {
-
-}
