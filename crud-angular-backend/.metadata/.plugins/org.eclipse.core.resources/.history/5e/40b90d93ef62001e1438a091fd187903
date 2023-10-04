@@ -1,0 +1,24 @@
+package com.loiane.enums.converters;
+
+import com.loiane.enums.Status;
+
+import jakarta.persistence.AttributeConverter;
+
+public class StatusConverter implements AttributeConverter<Status, String>{
+
+	@Override
+	public String convertToDatabaseColumn(Status status) {
+		
+		if (status == null) {
+			return null;
+		}
+		return status.getValue();
+	}
+
+	@Override
+	public Status convertToEntityAttribute(String dbData) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

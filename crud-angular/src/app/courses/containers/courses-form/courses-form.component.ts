@@ -46,6 +46,8 @@ export class CoursesFormComponent implements OnInit {
         .subscribe(response =>
           this.onSuccess(),
          error => {
+          console.log(error);
+
           this.onError()
         });
   }

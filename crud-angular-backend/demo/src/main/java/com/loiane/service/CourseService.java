@@ -6,7 +6,6 @@ import java.util.stream.Collectors;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.PathVariable;
 
 import com.loiane.dto.CourseDTO;
 import com.loiane.dto.mapper.CourseMapper;
@@ -40,7 +39,7 @@ public class CourseService {
 		
 	}
 
-	public CourseDTO findById(@PathVariable @NotNull @Positive Long id) {
+	public CourseDTO findById(@NotNull @Positive Long id) {
 		return this.courseRepository.findById(id)
 				   .map(courseMapper::toDTO)
 				   .orElseThrow(() -> new RecordNotFoundException(id));
@@ -50,15 +49,15 @@ public class CourseService {
 		return this.courseMapper.toDTO(this.courseRepository.save(this.courseMapper.toEntity(course)));
 	}
 
-	public CourseDTO update(@PathVariable @NotNull @Positive Long id, @Valid @NotNull CourseDTO course) {
+	public CourseDTO update(@NotNull @Positive Long id, @Valid @NotNull CourseDTO course) {
 		return this.courseRepository.findById(id).map(recordFound -> {
 			recordFound.setName(course.name());
-			recordFound.setCategory(course.category());
+			recordFound.setCategory(courseMapper.convertCategoryValue(course.category()));
 			return this.courseMapper.toDTO(this.courseRepository.save(recordFound));
 		}).orElseThrow(() -> new RecordNotFoundException(id));
 	}
 
-	public void delete(@PathVariable @NotNull @Positive Long id) {
+	public void delete(@NotNull @Positive Long id) {
 		this.courseRepository
 			.delete(this.courseRepository.findById(id).orElseThrow(() -> new RecordNotFoundException(id)));
 	}

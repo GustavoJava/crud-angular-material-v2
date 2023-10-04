@@ -1,0 +1,17 @@
+package com.loiane.enums;
+
+public enum Category {
+	BACK_END("Back-end"), FRONT_END("Front-end");
+	
+	private String categoria;
+
+	Category(String descricao) {
+        this.categoria = descricao;
+    }
+
+    public String getCategoria() {
+        return descricao;
+    }
+	
+	
+}

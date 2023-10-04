@@ -1,0 +1,14 @@
+package com.loiane.controller;
+
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import com.loiane.exception.RecordNotFoundException;
+
+@RestControllerAdvice
+public class AplicationControllerAdvice {
+
+	public String handleNotFoundException(RecordNotFoundException ex) {
+		return "Error :"+ ex.getMessage();
+	}
+
+}

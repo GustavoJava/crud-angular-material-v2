@@ -1,0 +1,5 @@
+package com.loiane.enums.converters;
+
+public class CategoryConverter {
+
+}
