@@ -38,6 +38,8 @@ export class CoursesFormComponent implements OnInit {
       name: course.name,
       category: course.category
     });
+    console.log(course);
+
   }
 
   onSubmit(): void {

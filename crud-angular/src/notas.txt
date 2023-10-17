@@ -170,10 +170,18 @@ ver: https://www.baeldung.com/jpa-join-column
 https://www.youtube.com/watch?v=Nb4uxLxdvxo&ab_channel=LoianeGroner
 
 46º AULA - Curso-Aulas: Listando Aulas
+@JsonProperty(access = JsonProperty.Access.WRITE_ONLY) evita referência circular - jackson.fasterxml
 https://www.youtube.com/watch?v=ZLpyS4qqEZE&ab_channel=LoianeGroner
 
-48º: Curso-Aulas: Interface Aulas
+47º AULA - Curso-Aulas: Aula DTO
+https://www.youtube.com/watch?v=hRgEjn2TGCQ&ab_channel=LoianeGroner
+
+48º Curso-Aulas: Interface Aulas
+*operador ? exclui a obrigatoriedade
 https://www.youtube.com/watch?v=HKFrz5P8D0g&ab_channel=LoianeGroner
+
+49º Curso-Aulas: FormArray
+https://www.youtube.com/watch?v=q4P5UGisG2U&ab_channel=LoianeGroner
 
 comandos
 ng add @angular/material --> adicionar material

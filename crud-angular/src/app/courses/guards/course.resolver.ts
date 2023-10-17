@@ -22,7 +22,7 @@ export class CourseResolver implements Resolve<Course> {
       return this.service.loadById(Id);
     }
 
-    const course:Course = {_id:'', name:'', category:''};
+    const course:Course = {_id:'', name:'', category:'', lessons:[]};
     return of(course);
   }
 }
