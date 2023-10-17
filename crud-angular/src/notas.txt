@@ -158,9 +158,11 @@ https://www.youtube.com/watch?v=xeOBISdqTQc&ab_channel=LoianeGroner
 https://www.youtube.com/watch?v=2GTgDLkDWPQ&ab_channel=LoianeGroner
 
 43º AULA - Persistência de Enums no JPA
+ver: https://www.baeldung.com/jpa-persisting-enums-in-jpa
 https://www.youtube.com/watch?v=1d1JbwJ_Py4&ab_channel=LoianeGroner
 
 44º AULA - Persistência de Enums no JPA
+ver: https://www.baeldung.com/jpa-persisting-enums-in-jpa
 https://www.youtube.com/watch?v=GJ0krClAmPs&ab_channel=LoianeGroner
 
 45º AULA - Curso-Aulas: OneToMany
