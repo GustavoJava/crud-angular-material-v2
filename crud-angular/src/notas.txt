@@ -158,16 +158,30 @@ https://www.youtube.com/watch?v=xeOBISdqTQc&ab_channel=LoianeGroner
 https://www.youtube.com/watch?v=2GTgDLkDWPQ&ab_channel=LoianeGroner
 
 43º AULA - Persistência de Enums no JPA
+ver: https://www.baeldung.com/jpa-persisting-enums-in-jpa
 https://www.youtube.com/watch?v=1d1JbwJ_Py4&ab_channel=LoianeGroner
 
 44º AULA - Persistência de Enums no JPA
+ver: https://www.baeldung.com/jpa-persisting-enums-in-jpa
 https://www.youtube.com/watch?v=GJ0krClAmPs&ab_channel=LoianeGroner
 
 45º AULA - Curso-Aulas: OneToMany
+ver: https://www.baeldung.com/jpa-join-column
 https://www.youtube.com/watch?v=Nb4uxLxdvxo&ab_channel=LoianeGroner
 
-48º: Curso-Aulas: Interface Aulas
+46º AULA - Curso-Aulas: Listando Aulas
+@JsonProperty(access = JsonProperty.Access.WRITE_ONLY) evita referência circular - jackson.fasterxml
+https://www.youtube.com/watch?v=ZLpyS4qqEZE&ab_channel=LoianeGroner
+
+47º AULA - Curso-Aulas: Aula DTO
+https://www.youtube.com/watch?v=hRgEjn2TGCQ&ab_channel=LoianeGroner
+
+48º Curso-Aulas: Interface Aulas
+*operador ? exclui a obrigatoriedade
 https://www.youtube.com/watch?v=HKFrz5P8D0g&ab_channel=LoianeGroner
+
+49º Curso-Aulas: FormArray
+https://www.youtube.com/watch?v=q4P5UGisG2U&ab_channel=LoianeGroner
 
 comandos
 ng add @angular/material --> adicionar material

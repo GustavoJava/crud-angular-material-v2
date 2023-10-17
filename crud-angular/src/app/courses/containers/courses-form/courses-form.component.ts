@@ -38,6 +38,8 @@ export class CoursesFormComponent implements OnInit {
       name: course.name,
       category: course.category
     });
+    console.log(course);
+
   }
 
   onSubmit(): void {
@@ -46,6 +48,8 @@ export class CoursesFormComponent implements OnInit {
         .subscribe(response =>
           this.onSuccess(),
          error => {
+          console.log(error);
+
           this.onError()
         });
   }
