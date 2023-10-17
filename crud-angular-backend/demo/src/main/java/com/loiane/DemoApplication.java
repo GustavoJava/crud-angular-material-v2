@@ -1,15 +1,13 @@
 package com.loiane;
 
-import java.util.List;
-
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 import com.loiane.enums.Category;
-import com.loiane.enums.Status;
 import com.loiane.model.Course;
+import com.loiane.model.Lesson;
 import com.loiane.repository.CourseRepository;
 
 @SpringBootApplication
@@ -18,24 +16,77 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
-
+	
 	@Bean
-	CommandLineRunner initDatabase(CourseRepository repository) {
+	CommandLineRunner initDataBase(CourseRepository courseRepository) {
 		return args -> {
-			repository.deleteAll();
+			courseRepository.deleteAll();
 			
-			List<Course> lista = List.of(
-					new Course(1L, "Java 17", Category.BACK_END, Status.ATIVO),
-					new Course(2L, "AngularJS", Category.FRONT_END,Status.ATIVO),
-					new Course(3L, "Material Design", Category.FRONT_END,Status.ATIVO),
-					new Course(4L, "C++ Turbo", Category.BACK_END,Status.ATIVO),
-					new Course(5L, "Python", Category.BACK_END,Status.INATIVO)
-			);
+			Course course  = new Course();
+			course.setName("AngularJS com Spring");
+			course.setCategory(Category.BACK_END);
 			
-			repository.saveAll(lista);
+						
+			Lesson lesson = new Lesson();
+			lesson.setName("Introdução - O que é Spring boot");
+			lesson.setYoutubeUrl("https://www.youtube.com/watch?v=1");
+			lesson.setCourse(course);
 			
+			course.getLessons().add(lesson);
+			
+			Lesson lesson2 = new Lesson();
+			lesson2.setName("Spring boot - Hello World");
+			lesson2.setYoutubeUrl("https://www.youtube.com/watch?v=2");
+			lesson2.setCourse(course);
+			
+			course.getLessons().add(lesson2);
+			
+			Lesson lesson3 = new Lesson();
+			lesson3.setName("Java 17 - Novidades");
+			lesson3.setYoutubeUrl("https://www.youtube.com/watch?v=3");
+			lesson3.setCourse(course);
+			
+			course.getLessons().add(lesson3);
+			
+			Lesson lesson4 = new Lesson();
+			lesson4.setName("AngularJS - Introdução");
+			lesson4.setYoutubeUrl("https://www.youtube.com/watch?v=4");
+			lesson4.setCourse(course);
+			
+			course.getLessons().add(lesson4);
+			
+			courseRepository.save(course);
 			
 		};
 	}
+
+//	@Bean
+//	CommandLineRunner initDatabase(CourseRepository repository) {
+//		return args -> {
+//			repository.deleteAll();
+//			
+//			List<Lesson> lessons = List.of(
+//					new Lesson(1L,"Introdução", "https://www.youtube.com/watch?v=1"),
+//					new Lesson(2L,"Introdução", "https://www.youtube.com/watch?v=2"),
+//					new Lesson(3L,"Introdução", "https://www.youtube.com/watch?v=3"),
+//					new Lesson(4L,"Introdução", "https://www.youtube.com/watch?v=4"),
+//					new Lesson(5L,"Introdução", "https://www.youtube.com/watch?v=5")
+//			);
+//			
+//			List<Course> lista = List.of(
+//					new Course(1L, "Java 17", Category.BACK_END, Status.ATIVO,lessons.indexOf(lessons.get(0))),
+//					new Course(2L, "AngularJS", Category.FRONT_END,Status.ATIVO, lessons),
+//					new Course(3L, "Material Design", Category.FRONT_END,Status.ATIVO, lessons),
+//					new Course(4L, "C++ Turbo", Category.BACK_END,Status.ATIVO, lessons),
+//					new Course(5L, "Python", Category.BACK_END,Status.INATIVO, lessons)
+//			);
+//			
+//			repository.saveAll(lista);
+//			
+//			
+//		};
+//	}
+	
+	
 	
 }

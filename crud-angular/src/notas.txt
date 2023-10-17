@@ -164,7 +164,11 @@ https://www.youtube.com/watch?v=1d1JbwJ_Py4&ab_channel=LoianeGroner
 https://www.youtube.com/watch?v=GJ0krClAmPs&ab_channel=LoianeGroner
 
 45º AULA - Curso-Aulas: OneToMany
+ver: https://www.baeldung.com/jpa-join-column
 https://www.youtube.com/watch?v=Nb4uxLxdvxo&ab_channel=LoianeGroner
+
+46º AULA - Curso-Aulas: Listando Aulas
+https://www.youtube.com/watch?v=ZLpyS4qqEZE&ab_channel=LoianeGroner
 
 48º: Curso-Aulas: Interface Aulas
 https://www.youtube.com/watch?v=HKFrz5P8D0g&ab_channel=LoianeGroner
