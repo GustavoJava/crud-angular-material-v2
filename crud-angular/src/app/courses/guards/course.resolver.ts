@@ -17,7 +17,7 @@ export class CourseResolver implements Resolve<Course> {
 
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<Course> {
 
-    if(route.params && route.params['id']) {
+    if (route.params && route.params['id']) {
       const Id = route.params['id'];
       return this.service.loadById(Id);
     }

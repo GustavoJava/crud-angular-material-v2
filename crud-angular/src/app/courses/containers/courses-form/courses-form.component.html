@@ -18,6 +18,38 @@
         </mat-select>
         <mat-error *ngIf="form.get('category')?.invalid">{{getErrorMessage("category")}}</mat-error>
       </mat-form-field>
+
+      <mat-toolbar>
+        <span>Aulas</span>
+        <button mat-icon-button aria-label="Adicionar nova aula" (click)="addNewLesson()" color="accent">
+          <mat-icon>add</mat-icon>
+        </button>
+      </mat-toolbar>
+
+      <table style="width: 100%;" formArrayName="lessons"
+            *ngFor="let lesson of getLessonsFormArray(); let i = index">
+        <tr [formGroupName]="i">
+          <td style="width: 65%;">
+            <mat-form-field class="full-width">
+              <label>Título da Aula</label>
+              <input matInput formControlName="name">
+             </mat-form-field>
+          </td>
+          <td style="width: 30%;">
+            <mat-form-field class="full-width">
+              <label>URL</label>
+              <span matPrefix>https://youtu.be/</span>
+              <input matInput formControlName="youtubeUrl">
+             </mat-form-field>
+          </td>
+          <td style="width: 30%;">
+            <button mat-icon-button aria-label="remover aula" (click)="removeLesson(i)" color="warn">
+              <mat-icon>delete</mat-icon>
+            </button>
+          </td>
+        </tr>
+      </table>
+
     </form>
   </mat-card-content>
   <mat-card-actions>

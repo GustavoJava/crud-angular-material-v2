@@ -183,6 +183,12 @@ https://www.youtube.com/watch?v=HKFrz5P8D0g&ab_channel=LoianeGroner
 49º Curso-Aulas: FormArray
 https://www.youtube.com/watch?v=q4P5UGisG2U&ab_channel=LoianeGroner
 
+50º Curso-Aulas: FormArray HTML
+https://www.youtube.com/watch?v=OsIquz5_UNY&ab_channel=LoianeGroner
+
+51º Curso-Aulas: Adicionar e Remover Aulas
+https://www.youtube.com/watch?v=Fj3Zvf-N4bk&ab_channel=LoianeGroner
+
 comandos
 ng add @angular/material --> adicionar material
 ng g m courses --routing --> modulo com roteamento
