@@ -29,28 +29,28 @@ public class DemoApplication {
 						
 			Lesson lesson = new Lesson();
 			lesson.setName("Introdução - O que é Spring boot");
-			lesson.setYoutubeUrl("https://www.youtube.com/watch?v=1");
+			lesson.setYoutubeUrl("watch?v=1");
 			lesson.setCourse(course);
 			
 			course.getLessons().add(lesson);
 			
 			Lesson lesson2 = new Lesson();
 			lesson2.setName("Spring boot - Hello World");
-			lesson2.setYoutubeUrl("https://www.youtube.com/watch?v=2");
+			lesson2.setYoutubeUrl("watch?v=2");
 			lesson2.setCourse(course);
 			
 			course.getLessons().add(lesson2);
 			
 			Lesson lesson3 = new Lesson();
 			lesson3.setName("Java 17 - Novidades");
-			lesson3.setYoutubeUrl("https://www.youtube.com/watch?v=3");
+			lesson3.setYoutubeUrl("watch?v=3");
 			lesson3.setCourse(course);
 			
 			course.getLessons().add(lesson3);
 			
 			Lesson lesson4 = new Lesson();
 			lesson4.setName("AngularJS - Introdução");
-			lesson4.setYoutubeUrl("https://www.youtube.com/watch?v=4");
+			lesson4.setYoutubeUrl("watch?v=4");
 			lesson4.setCourse(course);
 			
 			course.getLessons().add(lesson4);
