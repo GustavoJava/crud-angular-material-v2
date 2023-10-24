@@ -52,16 +52,16 @@ export class CoursesFormComponent implements OnInit {
     return lessons;
   }
 
+  getLessonsFormArray() {
+      return (<UntypedFormArray>this.form.get('lessons'))?.controls;
+  }
+
   private createLesson(lesson: Lesson = {id:'', name: '', youtubeUrl: ''}) {
     return this.formBuilder.group({
       id: [lesson.id],
       name: [lesson.name],
       youtubeUrl: [lesson.youtubeUrl]
     })
-  }
-
-  getLessonsFormArray() {
-    return (<UntypedFormArray>this.form.get('lessons'))?.controls;
   }
 
   addNewLesson(){
