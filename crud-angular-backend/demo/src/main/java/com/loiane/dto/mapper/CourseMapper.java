@@ -49,6 +49,7 @@ public class CourseMapper {
         course.setLessons(lessons);
 
         return course;
+        
     }
 
     public Category convertCategoryValue(String value) {
@@ -60,5 +61,10 @@ public class CourseMapper {
             case "Back-end" -> Category.BACK_END;
             default -> throw new IllegalArgumentException("Categoria inválida: " + value);
         };
+        
+      //return Stream.of(Category.values())
+//		 .filter(c -> c.getValue().equals(value))
+//		 .findFirst()
+//		 .orElseThrow(IllegalArgumentException::new); 
     }
 }

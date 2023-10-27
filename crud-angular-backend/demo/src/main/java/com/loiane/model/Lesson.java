@@ -37,5 +37,4 @@ public class Lesson {
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private Course course;
 
-
 }
