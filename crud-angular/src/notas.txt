@@ -201,6 +201,9 @@ https://www.youtube.com/watch?v=GK22hYKZ1kM&ab_channel=LoianeGroner
 55º API para Criar e Editar Aulas
 https://www.youtube.com/watch?v=X4dvEdhHFXY&ab_channel=LoianeGroner
 
+56º Erros de Validação da API
+https://www.youtube.com/watch?v=Lr3d6QhZGlU&ab_channel=LoianeGroner
+
 comandos
 ng add @angular/material --> adicionar material
 ng g m courses --routing --> modulo com roteamento

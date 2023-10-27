@@ -48,6 +48,10 @@ export class CoursesFormComponent implements OnInit {
     return lessons;
   }
 
+  getLessonsFormArray() {
+    return (<UntypedFormArray>this.form.get('lessons')).controls;
+  }
+
   private createLesson(lesson: Lesson = { id: '', name: '', youtubeUrl: '' }) {
     return this.formBuilder.group({
       id: [lesson.id],
@@ -58,10 +62,6 @@ export class CoursesFormComponent implements OnInit {
       Validators.minLength(10),
       Validators.maxLength(11)]]
     });
-  }
-
-  getLessonsFormArray() {
-    return (<UntypedFormArray>this.form.get('lessons')).controls;
   }
 
   addNewLesson() {
