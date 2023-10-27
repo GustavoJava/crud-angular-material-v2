@@ -189,6 +189,21 @@ https://www.youtube.com/watch?v=OsIquz5_UNY&ab_channel=LoianeGroner
 51º Curso-Aulas: Adicionar e Remover Aulas
 https://www.youtube.com/watch?v=Fj3Zvf-N4bk&ab_channel=LoianeGroner
 
+52º Curso-Aulas: Validação do FormArray
+https://www.youtube.com/watch?v=7kVoTBZg4JM&ab_channel=LoianeGroner
+
+53º Classe Utilitária para Validação de Formulários
+https://www.youtube.com/watch?v=cwbDuTxbxmA&ab_channel=LoianeGroner
+
+54º Usando Classe Utilitária no FormArray
+https://www.youtube.com/watch?v=GK22hYKZ1kM&ab_channel=LoianeGroner
+
+55º API para Criar e Editar Aulas
+https://www.youtube.com/watch?v=X4dvEdhHFXY&ab_channel=LoianeGroner
+
+56º Erros de Validação da API
+https://www.youtube.com/watch?v=Lr3d6QhZGlU&ab_channel=LoianeGroner
+
 comandos
 ng add @angular/material --> adicionar material
 ng g m courses --routing --> modulo com roteamento
