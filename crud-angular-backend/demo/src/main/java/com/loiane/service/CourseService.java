@@ -3,19 +3,24 @@ package com.loiane.service;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import org.springframework.data.domain.Sort;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.loiane.dto.CourseDTO;
+import com.loiane.dto.CoursePageDTO;
 import com.loiane.dto.mapper.CourseMapper;
 import com.loiane.exception.RecordNotFoundException;
 import com.loiane.model.Course;
 import com.loiane.repository.CourseRepository;
 
 import jakarta.validation.Valid;
+import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
+import jakarta.validation.constraints.PositiveOrZero;
 
 @Validated
 @Service
@@ -28,14 +33,12 @@ public class CourseService {
 		this.courseRepository = courseRepository;
 		this.courseMapper = courseMapper;
 	}
-
-	public List<CourseDTO> list() {
-		final String FIELD = "name";
-
-		return this.courseRepository.findAll(Sort.by(Sort.Direction.ASC, FIELD)).stream()
-				// .map(course -> courseMapper.toDTO(course))
-				.map(courseMapper::toDTO).collect(Collectors.toList());
-
+	
+	public CoursePageDTO list(@RequestParam @PositiveOrZero int page,
+			@RequestParam @Positive @Max(100) int pageSize) {
+		Page<Course> pageCourse = this.courseRepository.findAll(PageRequest.of(page, pageSize));
+		List<CourseDTO> courses = pageCourse.get().map(courseMapper::toDTO).collect(Collectors.toList());
+		return new CoursePageDTO(courses, pageCourse.getTotalElements(), pageCourse.getTotalPages() );
 	}
 
 	public CourseDTO findById(@NotNull @Positive Long id) {
@@ -60,7 +63,7 @@ public class CourseService {
 
 	public void delete(@NotNull @Positive Long id) {
 		this.courseRepository
-				.delete(this.courseRepository.findById(id).orElseThrow(() -> new RecordNotFoundException(id)));
+			.delete(this.courseRepository.findById(id).orElseThrow(() -> new RecordNotFoundException(id)));
 	}
 
 }
