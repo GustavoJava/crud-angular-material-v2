@@ -16,47 +16,49 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
-	
+
 	@Bean
 	CommandLineRunner initDataBase(CourseRepository courseRepository) {
 		return args -> {
 			courseRepository.deleteAll();
-			
-			Course course  = new Course();
-			course.setName("AngularJS com Spring");
-			course.setCategory(Category.BACK_END);
-			
-						
-			Lesson lesson = new Lesson();
-			lesson.setName("Introdução - O que é Spring boot");
-			lesson.setYoutubeUrl("watch?v=1");
-			lesson.setCourse(course);
-			
-			course.getLessons().add(lesson);
-			
-			Lesson lesson2 = new Lesson();
-			lesson2.setName("Spring boot - Hello World");
-			lesson2.setYoutubeUrl("watch?v=2");
-			lesson2.setCourse(course);
-			
-			course.getLessons().add(lesson2);
-			
-			Lesson lesson3 = new Lesson();
-			lesson3.setName("Java 17 - Novidades");
-			lesson3.setYoutubeUrl("watch?v=3");
-			lesson3.setCourse(course);
-			
-			course.getLessons().add(lesson3);
-			
-			Lesson lesson4 = new Lesson();
-			lesson4.setName("AngularJS - Introdução");
-			lesson4.setYoutubeUrl("watch?v=4");
-			lesson4.setCourse(course);
-			
-			course.getLessons().add(lesson4);
-			
-			courseRepository.save(course);
-			
+
+			for (int i = 0; i < 20; i++) {
+
+				Course course = new Course();
+				course.setName("AngularJS com Spring " + i);
+				course.setCategory(Category.BACK_END);
+
+				Lesson lesson = new Lesson();
+				lesson.setName("Introdução - O que é Spring boot");
+				lesson.setYoutubeUrl("01234567890");
+				lesson.setCourse(course);
+
+				course.getLessons().add(lesson);
+
+				Lesson lesson2 = new Lesson();
+				lesson2.setName("Spring boot - Hello World");
+				lesson2.setYoutubeUrl("01234567890");
+				lesson2.setCourse(course);
+
+				course.getLessons().add(lesson2);
+
+				Lesson lesson3 = new Lesson();
+				lesson3.setName("Java 17 - Novidades");
+				lesson3.setYoutubeUrl("01234567890");
+				lesson3.setCourse(course);
+
+				course.getLessons().add(lesson3);
+
+				Lesson lesson4 = new Lesson();
+				lesson4.setName("AngularJS - Introdução");
+				lesson4.setYoutubeUrl("01234567890");
+				lesson4.setCourse(course);
+
+				course.getLessons().add(lesson4);
+
+				courseRepository.save(course);
+			}
+
 		};
 	}
 
@@ -86,7 +88,5 @@ public class DemoApplication {
 //			
 //		};
 //	}
-	
-	
-	
+
 }

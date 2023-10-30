@@ -204,6 +204,12 @@ https://www.youtube.com/watch?v=X4dvEdhHFXY&ab_channel=LoianeGroner
 56º Erros de Validação da API
 https://www.youtube.com/watch?v=Lr3d6QhZGlU&ab_channel=LoianeGroner
 
+57º Validando Enums com Java Bean Validations
+https://www.youtube.com/watch?v=_rLUoNwPaGc&t=1s&ab_channel=LoianeGroner
+
+58º Paginação no Spring
+https://www.youtube.com/watch?v=APKaYEKtJoQ&ab_channel=LoianeGroner
+
 comandos
 ng add @angular/material --> adicionar material
 ng g m courses --routing --> modulo com roteamento
