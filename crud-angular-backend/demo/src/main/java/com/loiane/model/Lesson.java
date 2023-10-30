@@ -15,10 +15,7 @@ import jakarta.persistence.ManyToOne;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
-//@Data
 @Entity
-//@AllArgsConstructor
-//@NoArgsConstructor
 public class Lesson {
 
 	@Id
