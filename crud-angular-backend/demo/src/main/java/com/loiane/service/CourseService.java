@@ -40,7 +40,7 @@ public class CourseService {
 
 	public CourseDTO findById(@NotNull @Positive Long id) {
 		return this.courseRepository.findById(id).map(courseMapper::toDTO)
-				.orElseThrow(() -> new RecordNotFoundException(id));
+				   .orElseThrow(() -> new RecordNotFoundException(id));
 	}
 
 	public CourseDTO create(@Valid @NotNull CourseDTO course) {

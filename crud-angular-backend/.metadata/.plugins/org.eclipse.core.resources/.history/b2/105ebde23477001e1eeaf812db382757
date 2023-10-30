@@ -1,0 +1,46 @@
+package com.loiane.controller;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.MethodArgumentNotValidException;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import com.loiane.exception.RecordNotFoundException;
+
+import jakarta.validation.ConstraintViolationException;
+//
+//98195y6621
+//
+//EllaOralAgora$$
+//reservadamente falou para bomrapaz
+//11:15
+//99177xx3364
+
+@RestControllerAdvice
+public class AplicationControllerAdvice {
+
+	@ExceptionHandler(RecordNotFoundException.class)
+	@ResponseStatus(code = HttpStatus.NOT_FOUND)
+	public String handleNotFoundException(RecordNotFoundException ex) {
+		return ex.getMessage();
+	}
+	
+	@ExceptionHandler(MethodArgumentNotValidException.class)
+	@ResponseStatus(code = HttpStatus.BAD_REQUEST)
+	public String handleMethodArgumentNotValidException(MethodArgumentNotValidException ex) {
+		return ex.getBindingResult().getFieldErrors()
+				 .stream().map(error -> error.getField() + " " + error.getDefaultMessage())
+				 .reduce("" , (acc, error) -> acc + error + "\n");
+	}
+	
+	@ExceptionHandler(MethodArgumentNotValidException.class)
+	@ResponseStatus(code = HttpStatus.BAD_REQUEST)
+	public String handleConstraintViolationException(ConstraintViolationException ex) {
+		return ex.getBindingResult().getFieldErrors()
+				 .stream().map(error -> error.getField() + " " + error.getDefaultMessage())
+				 .reduce("" , (acc, error) -> acc + error + "\n");
+	}
+	
+
+}

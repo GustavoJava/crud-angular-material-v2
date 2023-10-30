@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;course&apos; in &apos;com.loiane.service.CourseService.update(...)&apos; to &apos;courseDTO&apos;&#x0A;- Original project: &apos;demo&apos;&#x0A;- Original element: &apos;com.loiane.service.CourseService.update(Long, CourseDTO).course&apos;&#x0A;- Renamed element: &apos;course&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;course&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.loiane.service{CourseService.java[CourseService~update~QLong;~QCourseDTO;@course!1552!1583!1578!1583!QCourseDTO;!0!true" name="courseDTO" references="true" stamp="1698436992189" version="1.0"/>
+</session>

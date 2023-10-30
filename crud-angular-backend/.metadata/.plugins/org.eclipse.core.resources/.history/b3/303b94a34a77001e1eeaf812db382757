@@ -1,0 +1,5 @@
+package com.loiane.enums.validation;
+
+public class ValueOfEnumValidator {
+
+}
