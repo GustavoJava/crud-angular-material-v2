@@ -22,10 +22,9 @@ public class DemoApplication {
 		return args -> {
 			courseRepository.deleteAll();
 
-			for (int i = 0; i < 20; i++) {
 
 				Course course = new Course();
-				course.setName("AngularJS com Spring " + i);
+				course.setName("AngularJS com Spring ");
 				course.setCategory(Category.BACK_END);
 
 				Lesson lesson = new Lesson();
@@ -57,7 +56,6 @@ public class DemoApplication {
 				course.getLessons().add(lesson4);
 
 				courseRepository.save(course);
-			}
 
 		};
 	}

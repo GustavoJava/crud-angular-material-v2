@@ -1,5 +1,7 @@
 package com.loiane.controller;
 
+import java.util.List;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -33,12 +35,18 @@ public class CourseController {
 	public CourseController(CourseService courseService) {
 		this.courseService = courseService;
 	}
+	
+	 @GetMapping
+     public List<CourseDTO> list() {
+     return courseService.list();
+     }
 
-	@GetMapping
-	public CoursePageDTO list(@RequestParam(defaultValue = "0")  @PositiveOrZero int page,
-							  @RequestParam(defaultValue = "10") @Positive @Max(100) int pageSize) {
-		return this.courseService.list(page, pageSize);
-	}
+
+//	@GetMapping
+//	public CoursePageDTO list(@RequestParam(defaultValue = "0")  @PositiveOrZero int page,
+//							  @RequestParam(defaultValue = "10") @Positive @Max(100) int pageSize) {
+//		return this.courseService.list(page, pageSize);
+//	}
 	
 	@GetMapping("/{id}")
 	public CourseDTO findById(@PathVariable @NotNull @Positive Long id) {

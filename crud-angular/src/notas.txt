@@ -210,6 +210,9 @@ https://www.youtube.com/watch?v=_rLUoNwPaGc&t=1s&ab_channel=LoianeGroner
 58º Paginação no Spring
 https://www.youtube.com/watch?v=APKaYEKtJoQ&ab_channel=LoianeGroner
 
+EXECUTAR PROJETO
+npm run start
+
 comandos
 ng add @angular/material --> adicionar material
 ng g m courses --routing --> modulo com roteamento
