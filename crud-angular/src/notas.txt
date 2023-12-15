@@ -213,6 +213,8 @@ https://www.youtube.com/watch?v=APKaYEKtJoQ&ab_channel=LoianeGroner
 EXECUTAR PROJETO
 npm run start
 
+git remote show origin
+
 comandos
 ng add @angular/material --> adicionar material
 ng g m courses --routing --> modulo com roteamento
