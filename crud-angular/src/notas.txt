@@ -210,10 +210,30 @@ https://www.youtube.com/watch?v=_rLUoNwPaGc&t=1s&ab_channel=LoianeGroner
 58º Paginação no Spring
 https://www.youtube.com/watch?v=APKaYEKtJoQ&ab_channel=LoianeGroner
 
+59º MySQL + Spring Docker Compose
+https://www.youtube.com/watch?v=UeIb1xTlYJM&t=130s&ab_channel=LoianeGroner
+
+60º CRUD Angular + Spring | 60: Angular Material Paginator
+https://www.youtube.com/watch?v=KKdZSIIHTX4&ab_channel=LoianeGroner
+
+CRUD Angular + Spring | 61
+https://www.youtube.com/watch?v=emRpYOvSY2M&list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVlTcY&index=61&ab_channel=LoianeGroner
+
+CRUD Angular + Spring | 62: Migração para Standalone Components
+https://www.youtube.com/watch?v=tE3uKdPd6tQ&ab_channel=LoianeGroner
+
+CRUD Angular + Spring | 63: Novo Control Flow do Angular
+https://www.youtube.com/watch?v=4onmPIRH1KM&ab_channel=LoianeGroner
+
+
 EXECUTAR PROJETO
 npm run start
 
+exibir git remote
 git remote show origin
+
+Spinner Service
+https://www.youtube.com/watch?v=VdYiRLXIL-E&ab_channel=ZoaibKhan
 
 comandos
 ng add @angular/material --> adicionar material
@@ -223,6 +243,7 @@ ng g c courses/course-form --> adicionar componente course-form
 ng g m shared/app-material --> imports do angular-material em um unico modulo
 ng g pipe shared/pipes/category --> pipes transforma valores
 ng g resolver courses/guards/course --> cria um resolver
+
 ng update @angular/cli@13.3.9 @angular/core@13.3.9
 ng update @angular/core@15 @angular/cli@15
 
@@ -234,9 +255,9 @@ https://update.angular.io/
 
 GIT
 gustavo.java2000@gmail.com
-Gitstrike1
+GitStrike2000
 token:
-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
+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
 
 REMOVER .metadata/
 

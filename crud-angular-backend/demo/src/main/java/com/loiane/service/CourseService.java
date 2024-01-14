@@ -33,26 +33,23 @@ public class CourseService {
 		this.courseRepository = courseRepository;
 		this.courseMapper = courseMapper;
 	}
-	
-	 
-      public List<CourseDTO> list() {
-      return courseRepository.findAll()
-     .stream()
-      .map(courseMapper::toDTO)
-     .collect(Collectors.toList());
-      }
-     
-	
-//	public CoursePageDTO list(@RequestParam @PositiveOrZero int page,
-//			@RequestParam @Positive @Max(100) int pageSize) {
-//		Page<Course> pageCourse = this.courseRepository.findAll(PageRequest.of(page, pageSize));
-//		List<CourseDTO> courses = pageCourse.get().map(courseMapper::toDTO).collect(Collectors.toList());
-//		return new CoursePageDTO(courses, pageCourse.getTotalElements(), pageCourse.getTotalPages() );
+
+//	public List<CourseDTO> list() {
+//		return courseRepository.findAll()
+//				.stream()
+//				.map(courseMapper::toDTO).collect(Collectors.toList());
 //	}
+
+	public CoursePageDTO list(@RequestParam @PositiveOrZero int page,
+							  @RequestParam @Positive @Max(100) int pageSize) {
+		Page<Course> pageCourse = this.courseRepository.findAll(PageRequest.of(page, pageSize));
+		List<CourseDTO> courses = pageCourse.get().map(courseMapper::toDTO).collect(Collectors.toList());
+		return new CoursePageDTO(courses, pageCourse.getTotalElements(), pageCourse.getTotalPages());
+	}
 
 	public CourseDTO findById(@NotNull @Positive Long id) {
 		return this.courseRepository.findById(id).map(courseMapper::toDTO)
-				   .orElseThrow(() -> new RecordNotFoundException(id));
+				.orElseThrow(() -> new RecordNotFoundException(id));
 	}
 
 	public CourseDTO create(@Valid @NotNull CourseDTO course) {
@@ -72,7 +69,8 @@ public class CourseService {
 
 	public void delete(@NotNull @Positive Long id) {
 		this.courseRepository
-			.delete(this.courseRepository.findById(id).orElseThrow(() -> new RecordNotFoundException(id)));
+				.delete(this.courseRepository.findById(id).orElseThrow(() -> new RecordNotFoundException(id)));
 	}
+	
 
 }
