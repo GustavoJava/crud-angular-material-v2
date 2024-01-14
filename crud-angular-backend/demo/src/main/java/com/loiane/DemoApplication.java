@@ -4,6 +4,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Profile;
 
 import com.loiane.enums.Category;
 import com.loiane.model.Course;
@@ -18,13 +19,15 @@ public class DemoApplication {
 	}
 
 	@Bean
+	@Profile("dev")
 	CommandLineRunner initDataBase(CourseRepository courseRepository) {
 		return args -> {
 			courseRepository.deleteAll();
 
-
+			for (int i = 0; i < 4000; i++) {
+				
 				Course course = new Course();
-				course.setName("AngularJS com Spring ");
+				course.setName("AngularJS com Spring " + i);
 				course.setCategory(Category.BACK_END);
 
 				Lesson lesson = new Lesson();
@@ -56,7 +59,7 @@ public class DemoApplication {
 				course.getLessons().add(lesson4);
 
 				courseRepository.save(course);
-
+			}
 		};
 	}
 
