@@ -232,6 +232,9 @@ npm run start
 exibir git remote
 git remote show origin
 
+instalar Versão especifica
+npx -p @angular/cli@15.0.0 ng new <project-name>
+
 Spinner Service
 https://www.youtube.com/watch?v=VdYiRLXIL-E&ab_channel=ZoaibKhan
 

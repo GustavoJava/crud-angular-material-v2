@@ -24,7 +24,7 @@ public class DemoApplication {
 		return args -> {
 			courseRepository.deleteAll();
 
-			for (int i = 0; i < 4000; i++) {
+			for (int i = 0; i < 100; i++) {
 				
 				Course course = new Course();
 				course.setName("AngularJS com Spring " + i);
