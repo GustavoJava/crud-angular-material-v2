@@ -229,6 +229,9 @@ https://www.youtube.com/watch?v=4onmPIRH1KM&ab_channel=LoianeGroner
 EXECUTAR PROJETO
 npm run start
 
+NPM error
+npm install --legacy-peer-deps
+
 exibir git remote
 git remote show origin
 
